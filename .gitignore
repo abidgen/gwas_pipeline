@@ -1,0 +1,65 @@
+# Nextflow runtime
+.nextflow/
+work/
+.nextflow.log*
+trace.txt
+timeline.html
+report.html
+dag.svg
+
+# Pipeline outputs
+results/
+results_*/
+prs_results/
+simulated_ld_data/
+
+# Logs
+*.out
+*.err
+slurm-*.out
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Generated genomics files
+*.bed
+*.bim
+*.fam
+*.nosex
+*.log
+*.raw
+*.genome
+*.imiss
+*.lmiss
+*.hh
+*.het
+*.eigenval
+*.eigenvec
+*.prune.in
+*.prune.out
+*.missnp
+
+# GWAS / PRS outputs
+*.best
+*.summary
+*.score
+*.assoc
+*.assoc.logistic
+*.assoc.linear
+
+# Temp / editor
+*.tmp
+*.temp
+*~
+.DS_Store
+.vscode/
+
+# Run logs
+dl_1kg_ref_*.out
+dl_1kg_ref_*.err
+dl_finngen_r12_*.out
+dl_finngen_r12_*.err
+verify_gwas_prs_*.out
+verify_gwas_prs_*.err
